@@ -1,11 +1,12 @@
 import React from 'react';
+import sheikhImage from '../../images.jfif';
 
 const Biography = () => {
   return (
     <div className="biography-card glass">
       <div className="bio-image-container">
         <img 
-          src="/images.jfif" 
+          src={sheikhImage} 
           alt="الشيخ محمد أحمد حسن - دولة التلاوة" 
           className="bio-image"
           onError={(e) => {
