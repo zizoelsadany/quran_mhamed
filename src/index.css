@@ -120,6 +120,66 @@ body {
   padding: 0 1.5rem;
 }
 
+/* Biography */
+.biography-card {
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  text-align: right;
+  line-height: 1.8;
+  animation: fadeIn 0.8s ease forwards;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .biography-card {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.bio-image-container {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 4px;
+  background: var(--bg-gradient);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.bio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--glass-bg);
+}
+
+.bio-content {
+  flex: 1;
+}
+
+.biography-card h2 {
+  font-size: 1.4rem;
+  color: var(--accent-color);
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.biography-card p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  margin-bottom: 0.8rem;
+}
+.biography-card p:last-child {
+  margin-bottom: 0;
+}
+
 /* Surah List */
 .surah-grid {
   display: grid;

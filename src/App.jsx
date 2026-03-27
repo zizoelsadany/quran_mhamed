@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import AudioPlayer from './components/AudioPlayer';
 import SurahList from './components/SurahList';
+import Biography from './components/Biography';
 import { surahs } from './data/surahs';
 import './index.css';
 
@@ -41,6 +42,7 @@ function App() {
     <div className="app-container">
       <Header theme={theme} toggleTheme={toggleTheme} />
       <main className="main-content">
+        <Biography />
         <SurahList 
           currentSurah={currentSurah} 
           onSelectSurah={setCurrentSurah} 
