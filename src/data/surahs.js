@@ -1,7 +1,7 @@
 export const surahs = [
   { id: 1, name: 'الكهف', file: 'mohamedhassan_025.mp3', englishName: 'Al-Kahf' },
   { id: 2, name: 'إبراهيم', file: 'ابرهيم.mp3', englishName: 'Ibrahim' },
-  { id: 3, name: 'الواقعه', file: 'الفجر.mp3', englishName: 'Al-Fajr' },
+  { id: 3, name: 'الواقعه', file: 'الفجر.mp3', englishName: '' },
   { id: 4, name: 'المجادلة', file: 'المجادله.mp3', englishName: 'Al-Mujadila' },
   { id: 5, name: 'الملك', file: 'الملك.mp3', englishName: 'Al-Mulk' },
   { id: 6, name: 'النمل', file: 'النمل.mp3', englishName: 'An-Naml' },
